@@ -1,3 +1,7 @@
+/* The source Code from : https://github.com/riyadhasan24
+ * By Md. Riyad Hasan
+ */
+
 #include <SoftwareSerial.h>
 SoftwareSerial My_Serial(8, 9);
 
@@ -30,5 +34,4 @@ void Send_Text()
   delay(200);
   My_Serial.println((char)26);
   delay(1000);
-
 }
